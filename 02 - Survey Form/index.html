@@ -1,0 +1,97 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<link rel="stylesheet" href="styles.css">
+
+<body>
+    <div id="container">
+        <header id="header">
+            <h1 class="text-center" id="title">
+                Application to have Tyler work on your team
+            </h1>
+            <p id="description" class="description">
+                Due to the labor shortage of 2021 and 2022, many employers are left without good quality members on their teams. Tyler
+                Whitaker has already developed many skills necessary for employment in several technological and data driven fields. If
+                you would like to have him join your team, please fill out the following form. This will provide him with the relevant
+                contact information and context to begin a discussion about possible employment.
+            </p>
+        </header>
+        <div class="survey-box">
+            <form id="survey-form">
+                <div class="form-group" id="name">
+                    <label id="name-label" for="name">Name</label><br>
+                    <input type="text" name="name" id="name" class="form-control" placeholder="Your name" required />
+                </div>
+                <div class="form-group" id="company-name">
+                    <label id="company-name-label" for="company-name">Company Name</label><br>
+                    <input type="text" name="company-name" id="company-name" class="form-control"
+                        placeholder="Company's name" required />
+                </div>
+                <div class="form-group" id="contact-email">
+                    <label id="email-label" for="email">Email</label><br>
+                    <input type="email" name="email" id="email" placeholder="Contact Email" required />
+                </div>
+                <div class="form-group" id="salary">
+                    <label id="number-label">Enter Possible Salary</label><br>
+                    <input type="number" name="salary" id="salary" placeholder="Salary" min="30000" max="300000"
+                        required />
+                </div>
+                <div class="form-group" id="position">
+                    <label>What type of position are you most interested in hiring me for?</label><br>
+                    <select id="dropdown" required>
+                        <option disabled selected value>Select position type</option>
+                        <option value="data-engineer">Data Engineer</option>
+                        <option value="bi-engineer">Business Intelligence Engineer</option>
+                        <option value="data-analyst">Data Analyst</option>
+                        <option value="software-developer">Software Developer</option>
+                        <option value="machine-learning-engineer">Machine Learning Engineer</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group" id="remote-work">
+                    <label>What kind of remote work options are available?</label><br>
+                    <label>
+                        <input name="radio-button" value="remote" type="radio" class="input-radio" />Fully remote
+                    </label><br>
+                    <label>
+                        <input name="radio-button" value="hybrid-option" type="radio" class="input-radio" />Hybrid optional
+                    </label><br>
+                    <label>
+                        <input name="radio-button" value="hyprid-required" type="radio" class="input-radio" />Hybrid with in office expected
+                    </label><br>
+                    <label>
+                        <input name="radio-button" value="no-remote" type="radio" class="input-radio" />No remote available
+                    </label>
+                </div>
+                <div class="form-group" id="skills">
+                    <label>What skills are expected for this position?</label><br>
+                    <label><input name="skills" value="python" type="checkbox" class="input-checkbox">Python
+                    </label><br>
+                    <label><input name="skills" value="sql" type="checkbox" class="input-checkbox">SQL
+                    </label><br>
+                    <label><input name="skills" value="etl" type="checkbox" class="input-checkbox">ETL Pipelines
+                    </label><br>
+                    <label><input name="skills" value="oop" type="checkbox" class="input-checkbox">Object-Oriented
+                        Programming
+                    </label><br>
+                    <label><input name="skills" value="ml" type="checkbox" class="input-checkbox">Machine Learning
+                    </label><br>
+                    <label><input name="skills" value="visualization" type="checkbox"
+                            class="input-checkbox">Visualizations
+                    </label><br>
+                </div>
+                <div class="form-group" id="start-date">
+                    <label>When is the expected start date?</label><br>
+                    <input id="start-date" type="date" name="start-date">
+                </div>
+                <div class="form-group" id="suggestions">
+                    <label>Do you have any suggestions for technologies I should learn?</label><br>
+                    <textarea id="learn-tech" class="input-textarea" name="learn-tech"
+                        placeholder="Enter your suggestions here."></textarea>
+                </div>
+                <div id="submit-button">
+                    <button type="submit" id="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>

@@ -1,0 +1,42 @@
+body { 
+    border-color: aquamarine;
+    margin-left: 25%;
+    margin-right: 25%;
+    /* max-width: 500px; */
+    align-items: center;
+}
+h1 {
+    text-align: center;
+}
+
+textarea{
+    height: 100pt;
+}
+
+
+.description{ 
+    text-align: justify;
+}
+.survey-box {
+    border-style: solid;
+    border-color: cadetblue;
+    border-width: 3px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    padding: 5px;
+}
+
+.form-group { 
+    margin-bottom: 10px;
+}
+
+@media (max-width: 1000px) {
+    /* insert a bunch of stuff here */
+    body{ 
+        align-items: center;
+        width: 500pt;        
+    }
+/*    textarea { 
+        width: ;
+    }*/
+}
