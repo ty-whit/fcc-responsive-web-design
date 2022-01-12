@@ -17,11 +17,11 @@
         </header>
         <div class="survey-box">
             <form id="survey-form">
-                <div class="form-group" id="name">
+                <div class="form-group" id="div-name">
                     <label id="name-label" for="name">Name</label><br>
                     <input type="text" name="name" id="name" class="form-control" placeholder="Your name" required />
                 </div>
-                <div class="form-group" id="company-name">
+                <div class="form-group" id="div-company-name">
                     <label id="company-name-label" for="company-name">Company Name</label><br>
                     <input type="text" name="company-name" id="company-name" class="form-control"
                         placeholder="Company's name" required />
@@ -30,13 +30,13 @@
                     <label id="email-label" for="email">Email</label><br>
                     <input type="email" name="email" id="email" placeholder="Contact Email" required />
                 </div>
-                <div class="form-group" id="salary">
-                    <label id="number-label">Enter Possible Salary</label><br>
-                    <input type="number" name="salary" id="salary" placeholder="Salary" min="30000" max="300000"
+                <div class="form-group" id="div-salary">
+                    <label id="number-label" for="number">Enter Possible Salary</label><br>
+                    <input type="number" name="salary" id="number" placeholder="Salary" min="30000" max="300000"
                         required />
                 </div>
                 <div class="form-group" id="position">
-                    <label>What type of position are you most interested in hiring me for?</label><br>
+                    <label id="dropdown-label" for="dropdown">What type of position are you most interested in hiring me for?</label><br>
                     <select id="dropdown" required>
                         <option disabled selected value>Select position type</option>
                         <option value="data-engineer">Data Engineer</option>
@@ -79,12 +79,12 @@
                             class="input-checkbox">Visualizations
                     </label><br>
                 </div>
-                <div class="form-group" id="start-date">
-                    <label>When is the expected start date?</label><br>
+                <div class="form-group" id="div-start-date">
+                    <label for="start-date">When is the expected start date?</label><br>
                     <input id="start-date" type="date" name="start-date">
                 </div>
                 <div class="form-group" id="suggestions">
-                    <label>Do you have any suggestions for technologies I should learn?</label><br>
+                    <label for="learn-tech">Do you have any suggestions for technologies I should learn?</label><br>
                     <textarea id="learn-tech" class="input-textarea" name="learn-tech"
                         placeholder="Enter your suggestions here."></textarea>
                 </div>
