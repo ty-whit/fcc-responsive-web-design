@@ -1,0 +1,28 @@
+/*todo: add media query (test Layout#2)*/
+/*todo: something needs to be using a flexbox (test Layout#3)*/
+
+#page-wrapper {
+    align-items: center;
+}
+
+header {
+    position: fixed;
+    /*top: 0;*/
+    /*min-height: 75px;*/
+    /*padding: 0px 20px;*/
+    /*display: flex;*/
+    justify-content: space-around;
+    align-items: center;
+    /*background-color: #eee;*/
+}
+
+
+/*nav {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/
+
+/*li {*/
+/*    !*flex-direction: row;*!*/
+/*    list-style: none;*/
+/*}*/
