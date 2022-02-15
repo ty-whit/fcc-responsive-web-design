@@ -1,5 +1,6 @@
 # Requirements for Survey Form
-The following requirements are pulled from [freeCodeCamp's Responsive Web Design projects](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-survey-form).
+These requirements were pulled from the [Survey Form](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-survey-form) project description on [freeCodeCamp's](freeCodeCamp.org) website. 
+
 1. I can see a title with `id="title"` in H1 sized text.
 2. I can see a short explanation with `id="description"` in P sized text. 
 3. I can see a `form` with `id="survey-form"`. 
